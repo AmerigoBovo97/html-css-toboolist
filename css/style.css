@@ -1,0 +1,29 @@
+/*******************************************
+Common Styles
+*******************************************/
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: purple; /* temporary color */
+}
+
+.container{
+    width: 100%;
+    padding-left: 22px;
+    background-color: white;
+}
+
+
+/*******************************************
+Header Style
+*******************************************/
+
+
+header{
+    margin-bottom: 30px;
+}

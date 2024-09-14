@@ -59,14 +59,10 @@ Main Styles
     margin-bottom: 5px;
 }
 
-.tasks, .task{
+.tasks, .task, .task-section{
     margin-bottom: 15px;
 }
 
-
-.task-section{
-    margin-bottom: 15px;
-}
 
 .top-sct{
     border-radius: 3px 3px 0px 0px;  

@@ -57,10 +57,11 @@ Main Styles
 .sct-title{
     font-weight: bold;
     font-size: 20px;
+    margin-bottom: 5px;
 }
 
-.tasks{
-    font-size: px;
+.tasks, .task{
+    margin-bottom: 15px;
 }
 
 .check{
@@ -74,12 +75,49 @@ Main Styles
     padding: 3px 4px;
 }
 
-.tag{
-    font-size: small;
-    padding: 2px 8px;
-    border-radius: 11px;
+.unchecked{
+    border-color: #ff2323;
+    color: #ff2323;
 }
+
+
+.task-section{
+    margin-bottom: 15px;
+}
+
+.tag{
+    font-size: 10px;
+    padding: 3px 8px;
+    border-radius: 11px;
+    color: #ffffff;
+}
+
+
+/*******************************************
+Tags
+*******************************************/
+
 
 .editorial{
     background-color: #09a9ed;
+}
+
+.q1goals{
+    background-color: #ab5de6;
+}
+
+.recruiting{
+    background-color: #2cc6ab;
+}
+
+.mobile{
+    background-color: #ff9b00;
+}
+
+.website{
+    background-color: #ec4a9d;
+}
+
+.sales{
+    background-color: #a3d116;
 }

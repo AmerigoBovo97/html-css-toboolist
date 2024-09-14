@@ -7,11 +7,10 @@ Common Styles
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
-}
+    font-family: "Poppins", sans-serif;
 
 body{
-    background-color: purple; /* temporary color */
+    background-color: #f6f8f9;
 }
 
 .container{
@@ -42,7 +41,7 @@ Main Styles
 *******************************************/
 
 .button{
-    border: 2px solid gray;
+    border: 2px solid #808080;
     border-radius: 5px;
     text-align: center;
     font-size: 14px;
@@ -64,32 +63,17 @@ Main Styles
     margin-bottom: 15px;
 }
 
-.check{
-    font-size: 10px;
-    color: #39cab0;
-    display: inline-block;
-    border: 1px solid #39cab0;
-    border-radius: 50%;
-    line-height: 9px;
-    text-align: center;
-    padding: 3px 4px;
-}
-
-.unchecked{
-    border-color: #ff2323;
-    color: #ff2323;
-}
-
 
 .task-section{
     margin-bottom: 15px;
 }
 
-.tag{
-    font-size: 10px;
-    padding: 3px 8px;
-    border-radius: 11px;
-    color: #ffffff;
+.top-sct{
+    border-radius: 3px 3px 0px 0px;  
+}
+
+.bottom-sct{
+    border-radius: 0px 0px 3px 3px;   
 }
 
 
@@ -97,6 +81,13 @@ Main Styles
 Tags
 *******************************************/
 
+
+.tag{
+    font-size: 10px;
+    padding: 3px 8px;
+    border-radius: 11px;
+    color: #ffffff;
+}
 
 .editorial{
     background-color: #09a9ed;
@@ -120,4 +111,27 @@ Tags
 
 .sales{
     background-color: #a3d116;
+}
+
+
+/*******************************************
+Check boxes
+*******************************************/
+
+
+.check{
+    font-size: 10px;
+    color: #39cab0;
+    display: inline-block;
+    border: 1px solid #39cab0;
+    border-radius: 50%;
+    line-height: 9px;
+    text-align: center;
+    padding: 3px 4px;
+    margin-right: 5px;
+}
+
+.unchecked{
+    border-color: #ff2323;
+    color: #ff2323;
 }

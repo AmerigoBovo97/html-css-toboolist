@@ -6,6 +6,8 @@ Common Styles
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+
 }
 
 body{
@@ -13,9 +15,10 @@ body{
 }
 
 .container{
-    width: 100%;
-    padding-left: 22px;
+    width: 60%;
+    padding: 10px 50px;
     background-color: white;
+    margin: auto;
 }
 
 
@@ -26,4 +29,26 @@ Header Style
 
 header{
     margin-bottom: 30px;
+    .container{
+        width: 100%;
+        padding-left: 22px;
+    }
+}
+
+
+/*******************************************
+Main Styles
+*******************************************/
+
+.bottom{
+    border: 2px solid gray;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 14px;
+    padding: 4px 10px;
+}
+
+.button.btn-clicked{
+    border: 0px;
+    background-color: #14aaf5;
 }

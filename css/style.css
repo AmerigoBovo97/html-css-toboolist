@@ -19,6 +19,7 @@ body{
     padding: 10px 50px;
     background-color: white;
     margin: auto;
+    margin-bottom: 2px;
 }
 
 
@@ -40,7 +41,7 @@ header{
 Main Styles
 *******************************************/
 
-.bottom{
+.button{
     border: 2px solid gray;
     border-radius: 5px;
     text-align: center;
@@ -49,6 +50,36 @@ Main Styles
 }
 
 .button.btn-clicked{
-    border: 0px;
+    border: 2px solid #14aaf5;
     background-color: #14aaf5;
+}
+
+.sct-title{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.tasks{
+    font-size: px;
+}
+
+.check{
+    font-size: 10px;
+    color: #39cab0;
+    display: inline-block;
+    border: 1px solid #39cab0;
+    border-radius: 50%;
+    line-height: 9px;
+    text-align: center;
+    padding: 3px 4px;
+}
+
+.tag{
+    font-size: small;
+    padding: 2px 8px;
+    border-radius: 11px;
+}
+
+.editorial{
+    background-color: #09a9ed;
 }

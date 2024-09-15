@@ -68,35 +68,43 @@ Tags
 *******************************************/
 
 
-.tag{
+.tag::after{
     font-size: 10px;
     padding: 3px 8px;
     border-radius: 11px;
     color: #ffffff;
+    margin-left: 2px;
 }
 
-.editorial{
+.editorial::after{
     background-color: #09a9ed;
+    content: "Editorial";
 }
 
-.q1goals{
+
+.q1goals:after{
     background-color: #ab5de6;
+    content: "Q1 Goals";
 }
 
-.recruiting{
+.recruiting:after{
     background-color: #2cc6ab;
+    content: "Rcruiting";
 }
 
-.mobile{
+.mobile:after{
     background-color: #ff9b00;
+    content: "Mobile";
 }
 
-.website{
+.website:after{
     background-color: #ec4a9d;
+    content: "Website";
 }
 
-.sales{
+.sales:after{
     background-color: #a3d116;
+    content: "Sales";
 }
 
 

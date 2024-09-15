@@ -135,7 +135,7 @@ ul {
     margin-bottom: 15px;
 }
 
-.sct-title:first-child{
+.task-ul li:first-child{
     font-weight: bold;
     font-size: 20px;
     margin-bottom: 5px;

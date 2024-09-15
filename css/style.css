@@ -53,20 +53,6 @@ Main Styles
     background-color: #14aaf5;
 }
 
-.sct-title{
-    font-weight: bold;
-    font-size: 20px;
-    margin-bottom: 5px;
-}
-
-.tasks, .task{
-    margin-bottom: 15px;
-}
-
-.task-ul{
-    margin-bottom: 20px;
-}
-
 .top-sct{
     border-radius: 3px 3px 0px 0px;  
 }
@@ -133,4 +119,28 @@ Check boxes
 .unchecked{
     border-color: #ff2323;
     color: #ff2323;
+}
+
+
+/*******************************************
+List Styles
+*******************************************/
+
+
+ul {
+    list-style-type: none;
+}
+
+.task-ul li{
+    margin-bottom: 15px;
+}
+
+.sct-title:first-child{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.task-ul{
+    margin-bottom: 20px;
 }

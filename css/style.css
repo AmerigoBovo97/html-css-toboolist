@@ -8,6 +8,7 @@ Common Styles
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
+}
 
 body{
     background-color: #f6f8f9;
@@ -100,11 +101,21 @@ Tags
 
 
 /*******************************************
-Check boxes
+List Styles
 *******************************************/
 
 
-.check{
+ul {
+    list-style-type: none;
+}
+
+.task-ul li{
+    margin-bottom: 15px;
+    
+}
+
+.task-ul li::before{
+    content: "\2713";
     font-size: 10px;
     color: #39cab0;
     display: inline-block;
@@ -116,29 +127,20 @@ Check boxes
     margin-right: 5px;
 }
 
-.unchecked{
+.task-ul li.unchecked::before{
+    content: "\2715";
     border-color: #ff2323;
     color: #ff2323;
 }
 
-
-/*******************************************
-List Styles
-*******************************************/
-
-
-ul {
-    list-style-type: none;
-}
-
-.task-ul li{
-    margin-bottom: 15px;
-}
-
-.task-ul li:first-child{
+.list-title{
     font-weight: bold;
     font-size: 20px;
     margin-bottom: 5px;
+}
+
+.list-title::before{
+    content: "\25be";
 }
 
 .task-ul{
